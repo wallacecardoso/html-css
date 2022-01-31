@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+        body{
+            font-family: sans-serif;
+            background-color: dimgray;
+        }
+         header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+        #titulo{
+            font-family: 'Holtwood One SC', serif;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.397);
+        }
+        nav{
+            background-color: rgb(204, 204, 204);
+            box-shadow: 5px 3px 7px 1px rgba(95, 95, 95, 0.37);
+            padding: 5px;
+            width: auto;
+            height: auto;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+
+        }
+        article > aside{
+            background-color: rgb(145, 145, 145);
+            width: 250px;
+
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer>p{
+            margin: 0px;
+        }
+        nav>a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+        nav>a:hover{
+            text-decoration: underline;
+            background-color: rgb(68, 67, 67);
+            color: white;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50%;
+        }
+        div>img{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <!--header= cabeçalho; nav= navegação; main=conteúdo; footer=rodapé; (todas as tags são como div, mas o site se torna um site semântico e valorizado pelos mecanismos de busca)-->
+    <header>
+        <h1 id="titulo">Jornal A Noite</h1>
+        <nav>
+            <a href="caixa01.html" target="_self" rel="prev">Página Inicial</a>
+            <a href="#">Esportes</a>
+            <a href="#">Política</a>
+            <a href="#">Economia</a>
+            <a href="#">Entretenimento</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+      
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Não leia essa Fake News!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque facilis dolore molestiae nisi! Aliquid sint tempora voluptates recusandae dolorem, facilis fuga libero iure, exercitationem molestias dolore assumenda maxime quia vel.</p>
+                <aside> <!--Informação de adicional-->
+                    <p>Artigo escrito por José da Silva.</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Wallace Cardoso</p>
+    </footer>
+    <div id="bola">
+        <img src="eu.jpg" alt="eu">
+    </div>
+
+</body>
+</html>

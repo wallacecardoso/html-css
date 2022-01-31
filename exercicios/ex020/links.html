@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*  SELETORES PERSONALIZADOS
+            # = id
+            . = class
+            : = pseudo-class
+            :: = pseudo-element
+            > = children
+
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: darkred;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover{
+             color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: rgb(255, 229, 80);
+        }
+        /*a::after{
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+        */
+        .especial{
+            background-color: darksalmon;
+        }
+        .especial::before{
+            content: '⇒ '
+        }
+        .especial::after{
+            content: ' ⇐';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/Dabliocardoso" target="_blank" rel="dofollow" class="especial"> Repositório GitHub </a></li>
+        <li><a href="https://www.linkedin.com/in/cardoso-wallace" target="_blank" rel="dofollow" class="especial"> LinkedIn </a></li>
+        <li><a href="https://www.instagram.com/_wallacecardoso_/" target="_blank" rel="dofollow"> Instagram </a></li>
+
+    </ul>
+</body>
+</html>
