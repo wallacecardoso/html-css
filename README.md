@@ -1,5 +1,9 @@
 # html-css
-
+<style>
+    ul::before > li{
+        &#10003
+    }
+</style>
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 <ul style="circle">
     <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex001/"> Executar o exercício n°1 </a></li>
