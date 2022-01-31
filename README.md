@@ -6,7 +6,7 @@
 </style>
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 <ul style="circle">
-    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex001/"> Executar o exercício n°1 </a></li>
+    &#10003 <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex001/"> Executar o exercício n°1 </a></li>
     <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex002/"> Executar o exercício n°2 </a></li>
     <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex003/"> Executar o exercício n°3 </a></li>
     <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex004/"> Executar o exercício n°4 </a></li>
