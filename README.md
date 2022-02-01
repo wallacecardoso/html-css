@@ -24,3 +24,9 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
     <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex021/"> &#10003 Executar o exercício n°21 </a></li>
    
 </ul>
+
+<style>
+ul{
+   coloums:2
+}
+</style>
