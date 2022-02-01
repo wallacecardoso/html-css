@@ -12,4 +12,15 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
     <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex009/"> &#10003 Executar o exercício n°9 </a></li>
     <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex010/"> &#10003 Executar o exercício n°10 </a></li>
     <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex011/"> &#10003 Executar o exercício n°11 </a></li>
+    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex012/"> &#10003 Executar o exercício n°12 </a></li>
+    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex013/"> &#10003 Executar o exercício n°13 </a></li>
+    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex014/"> &#10003 Executar o exercício n°14 </a></li>
+    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex015/"> &#10003 Executar o exercício n°15 </a></li>
+    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex016/"> &#10003 Executar o exercício n°16 </a></li>
+    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex017/"> &#10003 Executar o exercício n°17 </a></li>
+    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex018/"> &#10003 Executar o exercício n°18 </a></li>
+    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex019/"> &#10003 Executar o exercício n°19 </a></li>
+    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex020/"> &#10003 Executar o exercício n°20 </a></li>
+    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex021/"> &#10003 Executar o exercício n°21 </a></li>
+   
 </ul>
