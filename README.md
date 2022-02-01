@@ -1,7 +1,7 @@
 # html-css
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
-<ul style= coloumns: 2; type="none"; >
+<ul style= coloumn-count: 2; type="none" >
     <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex001/"> &#10003  Executar o exercício n°1 </a></li>
     <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex002/"> &#10003 Executar o exercício n°2 </a></li>
     <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex003/"> &#10003 Executar o exercício n°3 </a></li>
