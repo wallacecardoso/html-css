@@ -22,5 +22,5 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
     <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex019/"> &#10003 Executar o exercício n°19 </a></li>
     <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex020/"> &#10003 Executar o exercício n°20 </a></li>
     <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex021/"> &#10003 Executar o exercício n°21 </a></li>
-   
+    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/site/"> &#10003 Executar o exercício n°22 (site) </a></li>
 </ul>
