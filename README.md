@@ -24,13 +24,3 @@
 | <a href= "https://wallacecardoso.github.io/html-css/exercicios/ex019/"> Acessar n°19 </a>|
 | <a href= "https://wallacecardoso.github.io/html-css/exercicios/ex020/"> Acessar n°20 </a>|
 | <a href= "https://wallacecardoso.github.io/html-css/exercicios/ex021/"> Acessar n°21 </a>|   
-
-
-<ul type="none" >
-    
-    <a href= "https://wallacecardoso.github.io/html-css/exercicios/testemenu/"> Acessar o exercício n°22 </a></li>
-</ul>
-
-<ul>
-    <li> </li>
-        
