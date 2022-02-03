@@ -1,26 +1,36 @@
 # html-css
 
-Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
+<h1>Estou aprendendo a criar sites e agora vou gerenciar meus repositórios! </h1>
+
+| Exercícios  | Desafios |
+| ------------- | ------------- |
+| <a href= "https://wallacecardoso.github.io/html-css/exercicios/ex001/"> Acessar n°1 </a> | <a href= "https://github.com/wallacecardoso/html-css/tree/main/desafios/desafio004"> Acessar n°4 </a>
+| <a href= "https://wallacecardoso.github.io/html-css/exercicios/ex002/"> Acessar n°2 </a> |
+| <a href= "https://wallacecardoso.github.io/html-css/exercicios/ex003/"> Acessar n°3 </a> |
+| <a href= "https://wallacecardoso.github.io/html-css/exercicios/ex004/"> Acessar n°4 </a> |
+| <a href= "https://wallacecardoso.github.io/html-css/exercicios/ex006/"> Acessar n°6 </a> |
+| <a href= "https://wallacecardoso.github.io/html-css/exercicios/ex007/"> Acessar n°7 </a> |
+| <a href= "https://wallacecardoso.github.io/html-css/exercicios/ex008/"> Acessar n°8 </a> |
+| <a href= "https://wallacecardoso.github.io/html-css/exercicios/ex009/"> Acessar n°9 </a> |
+| <a href= "https://wallacecardoso.github.io/html-css/exercicios/ex010/"> Acessar n°10 </a>|
+| <a href= "https://wallacecardoso.github.io/html-css/exercicios/ex011/"> Acessar n°11 </a>|
+| <a href= "https://wallacecardoso.github.io/html-css/exercicios/ex012/"> Acessar n°12 </a>|
+| <a href= "https://wallacecardoso.github.io/html-css/exercicios/ex013/"> Acessar n°13 </a>|
+| <a href= "https://wallacecardoso.github.io/html-css/exercicios/ex014/"> Acessar n°14 </a>|
+| <a href= "https://wallacecardoso.github.io/html-css/exercicios/ex015/"> Acessar n°15 </a>|
+| <a href= "https://wallacecardoso.github.io/html-css/exercicios/ex016/"> Acessar n°16 </a>|
+| <a href= "https://wallacecardoso.github.io/html-css/exercicios/ex017/"> Acessar n°17 </a>|
+| <a href= "https://wallacecardoso.github.io/html-css/exercicios/ex018/"> Acessar n°18 </a>|
+| <a href= "https://wallacecardoso.github.io/html-css/exercicios/ex019/"> Acessar n°19 </a>|
+| <a href= "https://wallacecardoso.github.io/html-css/exercicios/ex020/"> Acessar n°20 </a>|
+| <a href= "https://wallacecardoso.github.io/html-css/exercicios/ex021/"> Acessar n°21 </a>|   
+
+
 <ul type="none" >
-    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex001/"> &#10003  Executar o exercício n°1 </a></li>
-    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex002/"> &#10003 Executar o exercício n°2 </a></li>
-    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex003/"> &#10003 Executar o exercício n°3 </a></li>
-    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex004/"> &#10003 Executar o exercício n°4 </a></li>
-    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex006/"> &#10003 Executar o exercício n°6 </a></li>
-    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex007/"> &#10003 Executar o exercício n°7 </a></li>
-    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex008/"> &#10003 Executar o exercício n°8 </a></li>
-    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex009/"> &#10003 Executar o exercício n°9 </a></li>
-    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex010/"> &#10003 Executar o exercício n°10 </a></li>
-    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex011/"> &#10003 Executar o exercício n°11 </a></li>
-    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex012/"> &#10003 Executar o exercício n°12 </a></li>
-    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex013/"> &#10003 Executar o exercício n°13 </a></li>
-    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex014/"> &#10003 Executar o exercício n°14 </a></li>
-    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex015/"> &#10003 Executar o exercício n°15 </a></li>
-    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex016/"> &#10003 Executar o exercício n°16 </a></li>
-    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex017/"> &#10003 Executar o exercício n°17 </a></li>
-    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex018/"> &#10003 Executar o exercício n°18 </a></li>
-    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex019/"> &#10003 Executar o exercício n°19 </a></li>
-    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex020/"> &#10003 Executar o exercício n°20 </a></li>
-    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex021/"> &#10003 Executar o exercício n°21 </a></li>
-    <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/testemenu/"> &#10003 Executar o exercício n°22 </a></li>
+    
+    <a href= "https://wallacecardoso.github.io/html-css/exercicios/testemenu/"> Acessar o exercício n°22 </a></li>
 </ul>
+
+<ul>
+    <li> </li>
+        
