@@ -1,11 +1,5 @@
 # html-css
 
-| Exercícios    | Desafios      |
-| ------------- | ------------- |
-| <a href= "https://wallacecardoso.github.io/html-css/exercicios/ex001/"> Ex.001 </a>  | Content Cell  |
-| Content Cell  | Content Cell  |
-| 
-
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 <ul type="none" >
     <li><a href= "https://wallacecardoso.github.io/html-css/exercicios/ex001/"> &#10003  Executar o exercício n°1 </a></li>
