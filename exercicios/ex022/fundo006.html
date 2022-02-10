@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mais um teste</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{ /*Centralizar imagem e fazer um background alinhado*/
             height: 97vh;
-            background-color: black;
+            /* background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
+            shorthand background
+            color > image > position > repeat > [size] > attachment
+            */
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed ;
+            background-size: cover;
         }
         main {
             background-color: white;
             min-width: 270px;
-            max-width: 410px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid rgba(0, 0, 139, 0.404);
