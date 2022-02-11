@@ -17,12 +17,11 @@ header{
 }
 header h1{
     font-family: var(--font2);
-    font-size: 6em;
+    font-size: 10vw;
     text-shadow: 1px 1px solid black;
     text-align: center;
     padding: 10px;
     margin: auto;
-    font-weight: bold;
 }
 
 
