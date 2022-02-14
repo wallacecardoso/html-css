@@ -24,20 +24,51 @@ header{
     color: white;
     text-align: center;
 }
+
 header > h1 {
     padding-top: 50px;   
     font-variant: small-caps;
 }
 /*text-transform: uppercase; - Aumenta todas as letras*/
+header > p {
+    padding-bottom: 50px;
+}
 
-a{
+header a, footer a{
     font-weight: 800;
     text-decoration: none;
     color: white;
 }
-a:hover{
-    font-weight: 800;
-    text-decoration: underline;
-    color: white;
+header a:hover, footer a:hover{
+    text-decoration: underline; 
 }
 
+section{
+    padding-top: 10% ;
+    padding-bottom: 10%;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(87, 86, 86);
+    color: white;
+
+}
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.178);
+    width: 400px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
