@@ -12,6 +12,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         caption{
             font-size: 1.5em;
@@ -24,8 +25,13 @@
             padding: 10px;
         }
         thead,tfoot{
-            background-color: gray;
+            background-color: rgb(0, 0, 0);
             color: white;
+        }
+        thead > tr{
+            position: sticky /* grudável/colável */;
+            background-color: rgb(0, 0, 0);
+            top: -1px;
         }
         td.numero{
             text-align: right;
@@ -36,6 +42,9 @@
         }
         td{
             text-align: center;
+        }
+        tbody >tr:nth-child(even) /* odd = ímpar ; even = par */ {
+            background-color: lightgray;
         }
         tr.head{
             text-shadow: 1px 1px 0px black;
@@ -72,7 +81,7 @@
             <tr>
                 <td>Minas Gerais</td>
                 <td class="numero">21 411 923</td>
-                <td>10,1$</td>
+                <td>10,1%</td>
             </tr>
             <tr>
                 <td>Rio de Janeiro</td>
@@ -209,5 +218,18 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque totam cum corrupti odio quaerat fuga deserunt nisi voluptate quas, dolores quis, earum aperiam doloremque, velit nihil impedit temporibus voluptatem officiis!Loremlorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequatur cupiditate cum quod consectetur debitis animi nostrum porro corrupti. Laborum quidem unde modi tempora facilis aliquam eum repellat voluptatem illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. A cumque nulla inventore repellendus magni ipsa, suscipit consequuntur, cum possimus quaerat aut odit culpa soluta vitae porro dolore ex. Deserunt, consequatur! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, accusamus, dolore veritatis cupiditate omnis odio repellat ea corrupti laborum a voluptatem iste ipsam architecto ab accusantium, consequatur sint vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. A et placeat, dolore rerum dolores tenetur ex nisi magnam modi inventore aspernatur perferendis ullam quas impedit beatae, tempore natus, repudiandae sed.
+    </p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque totam cum corrupti odio quaerat fuga deserunt nisi voluptate quas, dolores quis, earum aperiam doloremque, velit nihil impedit temporibus voluptatem officiis!Loremlorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequatur cupiditate cum quod consectetur debitis animi nostrum porro corrupti. Laborum quidem unde modi tempora facilis aliquam eum repellat voluptatem illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. A cumque nulla inventore repellendus magni ipsa, suscipit consequuntur, cum possimus quaerat aut odit culpa soluta vitae porro dolore ex. Deserunt, consequatur! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, accusamus, dolore veritatis cupiditate omnis odio repellat ea corrupti laborum a voluptatem iste ipsam architecto ab accusantium, consequatur sint vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. A et placeat, dolore rerum dolores tenetur ex nisi magnam modi inventore aspernatur perferendis ullam quas impedit beatae, tempore natus, repudiandae sed.
+    </p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque totam cum corrupti odio quaerat fuga deserunt nisi voluptate quas, dolores quis, earum aperiam doloremque, velit nihil impedit temporibus voluptatem officiis!Loremlorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequatur cupiditate cum quod consectetur debitis animi nostrum porro corrupti. Laborum quidem unde modi tempora facilis aliquam eum repellat voluptatem illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. A cumque nulla inventore repellendus magni ipsa, suscipit consequuntur, cum possimus quaerat aut odit culpa soluta vitae porro dolore ex. Deserunt, consequatur! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, accusamus, dolore veritatis cupiditate omnis odio repellat ea corrupti laborum a voluptatem iste ipsam architecto ab accusantium, consequatur sint vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. A et placeat, dolore rerum dolores tenetur ex nisi magnam modi inventore aspernatur perferendis ullam quas impedit beatae, tempore natus, repudiandae sed.
+    </p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque totam cum corrupti odio quaerat fuga deserunt nisi voluptate quas, dolores quis, earum aperiam doloremque, velit nihil impedit temporibus voluptatem officiis!Loremlorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequatur cupiditate cum quod consectetur debitis animi nostrum porro corrupti. Laborum quidem unde modi tempora facilis aliquam eum repellat voluptatem illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. A cumque nulla inventore repellendus magni ipsa, suscipit consequuntur, cum possimus quaerat aut odit culpa soluta vitae porro dolore ex. Deserunt, consequatur! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, accusamus, dolore veritatis cupiditate omnis odio repellat ea corrupti laborum a voluptatem iste ipsam architecto ab accusantium, consequatur sint vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. A et placeat, dolore rerum dolores tenetur ex nisi magnam modi inventore aspernatur perferendis ullam quas impedit beatae, tempore natus, repudiandae sed.
+    </p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque totam cum corrupti odio quaerat fuga deserunt nisi voluptate quas, dolores quis, earum aperiam doloremque, velit nihil impedit temporibus voluptatem officiis!Loremlorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequatur cupiditate cum quod consectetur debitis animi nostrum porro corrupti. Laborum quidem unde modi tempora facilis aliquam eum repellat voluptatem illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. A cumque nulla inventore repellendus magni ipsa, suscipit consequuntur, cum possimus quaerat aut odit culpa soluta vitae porro dolore ex. Deserunt, consequatur! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, accusamus, dolore veritatis cupiditate omnis odio repellat ea corrupti laborum a voluptatem iste ipsam architecto ab accusantium, consequatur sint vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. A et placeat, dolore rerum dolores tenetur ex nisi magnam modi inventore aspernatur perferendis ullam quas impedit beatae, tempore natus, repudiandae sed.
+    </p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque totam cum corrupti odio quaerat fuga deserunt nisi voluptate quas, dolores quis, earum aperiam doloremque, velit nihil impedit temporibus voluptatem officiis!Loremlorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequatur cupiditate cum quod consectetur debitis animi nostrum porro corrupti. Laborum quidem unde modi tempora facilis aliquam eum repellat voluptatem illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. A cumque nulla inventore repellendus magni ipsa, suscipit consequuntur, cum possimus quaerat aut odit culpa soluta vitae porro dolore ex. Deserunt, consequatur! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, accusamus, dolore veritatis cupiditate omnis odio repellat ea corrupti laborum a voluptatem iste ipsam architecto ab accusantium, consequatur sint vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. A et placeat, dolore rerum dolores tenetur ex nisi magnam modi inventore aspernatur perferendis ullam quas impedit beatae, tempore natus, repudiandae sed.
+    </p>
+   
 </body>
 </html>
