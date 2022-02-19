@@ -26,21 +26,27 @@
             background-color: chartreuse;
 
         }
+        .amarelo{
+            background-color: yellow;
+        } /* Também posso criar a class "cgrupo" com span="2",*/
+        .vermelho{
+            background-color: red;
+        }
     </style>
 </head>
 <body>
     <h1>Exercício de Tabela</h1>
     <table>
         <colgroup>
-            <col class="cnome">
-            <col class="csexo">
-            <col class="ccidade">
-            <col class="cprof">
+            <col class="amarelo">
+            <col class="vermelho" span="2">
+            <col class="amarelo">
+            
         </colgroup>
         <caption>Cadastro</caption>
         <tr>
             <th scope="col">Nome</th>
-            <th scope="col">Gênero</th>
+            <th scope="col">Sexo</th>
             <th scope="col">Idade</th>
             <th scope="col">Profissão</th>
         </tr>
