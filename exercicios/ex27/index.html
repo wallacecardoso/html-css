@@ -6,35 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
     <style>
+        body{
+            font-family: sans-serif;
+        }
         table{
+            width: 97vw;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        tbody>tr:nth-child(2n){
+            background-color: #888181be;            
         }
         table td, table th{
             border: 1px solid #ccc;
             padding: 5px;
+            text-align: left;
         }
+        table caption{
+            border-collapse: collapse;
+            caption-side: bottom;
+            text-align: right;
+            font-style: italic;
+            font-size: 17px;
+        }
+        tfoot td, table th{
+            background-color: #888181be;
+        }
+        table tbody{
+            max-width: 1000px;
+            overflow-x: auto;
+        }
+
+        thead  tr{
+            position: sticky;
+            top: -1px;
+            background-color: #888181be;
+        }
+        
     </style>
 </head>
 <body>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, beata.</p>
     <table>
-        <thead>
-            <tr>
-                <th> Título 1 </th>
-                <th> Título 2 </th>
-                <th> Título 3 </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td> Corpo 1 </td>
-                <td> Corpo 2 </td>
-                <td> Corpo 3 </td>
-            </tr>
-        </tbody>
-        <tfoot>
-
-        </tfoot>
+        <caption id="titulo">Uma descrição para a tabela</caption>
+        <section>
+            <thead>
+                <tr>
+                    <th scope="col"> Título 1 </th>
+                    <th scope="col"> Título 2 </th>
+                    <th scope="col"> Título 3 </th>
+                </tr>
+            </thead>
+        </section>
+        <section id="corpo" >
+            <tbody>
+                <tr>
+                    <td> Corpo 1  Corpo 1  Corpo 1 Corpo 1  Corpo 1         </td>
+                    <td> Corpo 2 </td>
+                    <td> Corpo 3 </td>
+                </tr>
+                <tr>
+                    <td> Corpo 1 </td>
+                    <td> Corpo 2 </td>
+                    <td> Corpo 3 </td>
+                </tr>
+                <tr>
+                    <td> Corpo 1 </td>
+                    <td> Corpo 2 </td>
+                    <td> Corpo 3 </td>
+                </tr>
+                <tr>
+                    <td> Corpo 1 </td>
+                    <td> Corpo 2 </td>
+                    <td> Corpo 3 </td>
+                </tr>
+                <tr>
+                    <td> Corpo 1 </td>
+                    <td> Corpo 2 </td>
+                    <td> Corpo 3 </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="2"> Total </th>
+                    <td>###</td>
+                </tr>
+            </tfoot>
+        </section>
     </table>
 </body>
 </html>
