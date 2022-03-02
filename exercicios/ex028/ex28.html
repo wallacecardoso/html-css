@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários e Inputs part.1</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        label{
+            cursor: pointer;
+        }
+        textarea{
+            text-align: left;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+      <p> O meu formulário</p>
+      <p>
+        <p>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Seu nome" required> <!--value="Wallace Cardoso" = Valor já preenchido no campo; 'disable = desabilita o campo'; 'readonly'=pode interagir, mas não pode modificar-->
+        </p>
+        <p>
+            <label for="sobrenome"> Sobrenome: </label>
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="Seu Sobrenome" required>
+        </p>
+        <p>
+            <label for="nasci">Data de nascimento:</label>
+            <input type="date" name="nasci" id="nasci" value="2020-09-05" required>
+        </p>
+        <p>
+            <label for="foto">Sua foto: </label>
+            <input type="file" id="foto" name="foto" accept="image/*" multiple>
+        </p>
+        <p>
+            <label for="number">Número: </label>
+            <input type="number" id="number" name="number" placeholder="Digite um número"> <!--Valor mínimo e máximo, além de intervalos de pulo. Ex.: min = "10" max = "50" step="5"-->
+        </p>
+        <p>
+            <label for="datetime"> Date-Time: </label>
+            <input type="datetime-local" id="datetime" name="datetime" value="2020-09-05T10:00">
+        </p>
+        <p>
+            <label for="time"> Hora: </label>
+            <input type="time" name="time" id="time" value="10:00">
+        </p>
+        <p>
+            <label for="email">E-mail: </label>
+            <input type="email" name="email" id="email" placeholder="ex.: email@email.com">
+        </p>
+        <p>
+            <label for="password"> Senha: </label>
+            <input type="password" name="password" id="password" placeholder="Digite sua senha">
+        </p>
+        <p>
+            <label for="cor"> Cor favorita:</label>
+            <input type="color" name="cor" id="cor" value="#FF8800" >
+
+        </p>
+      </p> 
+      <p>
+          <label for="devF">Sou dev Front-end</label>
+          <input type="checkbox" id="devF"  name="devF" value="sim" > <br>
+          <label for="devB">Sou dev Back-end</label>
+          <input type="checkbox" id="devB"  name="devB" value="sim" > <br>
+          <label for="devFS">Sou dev Fyll-Stack</label>
+          <input type="checkbox" id="devFS"  name="devFS" value="sim" >
+      </p>
+      <p>
+          Gênero: <br>
+        <label for="feminino">Feminino</label>
+        <input type="radio" id="feminino"  name="gênero" value="feminino"> <br>
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="masculino"  name="gênero" value="masculino"> <br>
+        <label for="não_binário">Não binário</label>
+        <input type="radio" id="não_binário"  name="gênero" value="não_binário"> <br>
+        <label for="não_informado"> Não informado</label>
+        <input type="radio" id="não_informado" name="gênero" value="não_informado" checked>
+      <p>
+          <p>
+              <label for="range">Range:</label>
+              <input type="range" name="range" id="range" step="2" list="tickmarks">
+                <datalist id="tickmarks">
+                  <option value="0" label="0%"></option>
+                  <option value="10"></option>
+                  <option value="20"></option>
+                  <option value="30"></option>
+                  <option value="40"></option>
+                  <option value="50" label="50%"></option>
+                  <option value="60"></option>
+                  <option value="70"></option>
+                  <option value="80"></option>
+                  <option value="90"></option>
+                  <option value="100" label="100%"></option>
+                </datalist>
+          </p>
+          <p>
+              <label for="url"> Seu url: </label>
+              <input type="url" id="url" name="url" placeholder="URL" required>
+          </p>
+          <p>
+              <label for="search"> Pesquise</label>
+              <input type="search" id="search" name="search" placeholder="Pesquisar">
+          </p>
+
+          <p>
+              <label for="select"> Selecione alguma opção</label>
+              <select id="select" name="select">
+              <optgroup label="Seção 1">
+                  <option value="Qualquer 1" label="Label 1">Label 1</option>
+                  <option value="Qualquer 2" label="Label 2">Label 2</option>
+                  <option value="Qualquer 3" label="Label 3">Label 3</option>
+                  <option value="Qualquer 4" label="Label 4">Label 4</option>
+              </optgroup>
+            </select>
+          </p>
+          <p>
+              <label for="textarea">Text-area</label>
+              <textarea name="textarea" id="textarea" cols="30" rows="8">
+
+              </textarea>
+          </p>
+
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar</button>
+        
+      </p>
+    </form>
+</body>
+</html>
