@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.pai h1{
+    color: rgb(48, 82, 133);
+    background-color: aliceblue;
+}
+
+.pai h1+p{
+    color: yellow ;
+    background-color: green;
+}
+[meu-atributo]{
+    color: green;
+}
